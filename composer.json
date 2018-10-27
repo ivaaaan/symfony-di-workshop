@@ -1,0 +1,23 @@
+{
+    "name": "iillexial/symfony_di",
+    "authors": [
+        {
+            "name": "iillexial",
+            "email": "iillexial@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "symfony/dependency-injection": "^4.1",
+        "symfony/config": "^4.1",
+        "monolog/monolog": "^1.23"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
